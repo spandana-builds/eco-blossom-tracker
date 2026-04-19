@@ -1,10 +1,10 @@
-# 🌿 EcoLife
+#  EcoLife
 
 A beautifully designed web app to help you build sustainable daily habits, tend a virtual garden, and stay inspired by nature.
 
 
 
-## ✨ Features
+##  Features
 
 - **Daily Eco Habits** — Track rituals like cycling, saving water, meatless meals, recycling, and more. Each habit earns eco points.
 - **Eco Score & Streaks** — Watch your lifetime score grow and maintain consecutive-day streaks.
@@ -22,7 +22,7 @@ A beautifully designed web app to help you build sustainable daily habits, tend 
 - **shadcn/ui** primitives
 - **localStorage** for persistence (via a typed `useLocalStorage` hook)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 # Install dependencies
@@ -37,7 +37,7 @@ npm run build
 
 The app runs on [http://localhost:8080](http://localhost:8080) by default.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -56,11 +56,11 @@ src/
 └── index.css           # Design tokens (HSL semantic colors)
 ```
 
-## 🎨 Design System
+##  Design System
 
 All colors are defined as HSL semantic tokens in `src/index.css` and `tailwind.config.ts`. Components reference tokens (e.g. `bg-leaf`, `text-moss`) — never hard-coded colors — so the theme stays consistent and easy to evolve.
 
-## 💾 Data
+##  Data
 
 Everything lives in your browser under these `localStorage` keys:
 - `ecolife.habits` — daily habit completions + history
@@ -68,6 +68,6 @@ Everything lives in your browser under these `localStorage` keys:
 
 Clearing site data resets your progress.
 
-## 📝 License
+##  License
 
-MIT — tend gently. 🌱
+MIT — tend gently. 
