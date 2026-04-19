@@ -2,7 +2,7 @@
 
 A beautifully designed web app to help you build sustainable daily habits, tend a virtual garden, and stay inspired by nature.
 
-![EcoLife](src/assets/hero-leaf.jpg)
+
 
 ## ✨ Features
 
